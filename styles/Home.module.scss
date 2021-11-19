@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  height: 768px;
+  justify-content: center;
+  align-items: center;
+}
+
+$size: 200px;
+$font-color: rgba(100, 100, 100, 0.5);
+
+.gradient {
+  display: flex;
+  background-color: rgba(200, 200, 200, 0.1);
+  border-radius: 8px;
+  width: $size * 2.5;
+  height: $size * 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.file {
+  width: $size;
+  height: $size;
+  padding: 32px;
+  border-radius: 8px;
+  border-width: 2;
+  border-style: dashed;
+  border-color: $font-color;
+}
+
+.image {
+  width: $size;
+  height: $size;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.text {
+  display: flex;
+  color: $font-color;
+  flex-direction: column;
+  align-items: center;
+}

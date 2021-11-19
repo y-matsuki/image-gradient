@@ -8,11 +8,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@google-cloud/vision": "^2.4.0",
+    "formidable": "^2.0.1",
     "next": "12.0.4",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-dropzone": "^11.4.2",
+    "sass": "^1.43.4"
   },
   "devDependencies": {
+    "@types/formidable": "^2.0.0",
     "@types/node": "16.11.8",
     "@types/react": "17.0.35",
     "eslint": "7.32.0",
