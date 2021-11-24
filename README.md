@@ -1,5 +1,7 @@
 # image-gradient
 
+![sample](public/sample.gif)
+
 [Cloud Vision API](https://cloud.google.com/vision/)を使用して画像ファイルからカラーコードを取得するサンプル
 
 ## クイックスタート
